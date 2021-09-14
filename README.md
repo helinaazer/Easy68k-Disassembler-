@@ -1,2 +1,4 @@
 # Easy68k-Disassembler-
-This program is intended to read and take in machine code and output the disassembled code to a console.
+This program is intended to read and take in machine code and output the disassembled code to a console., as well as log it to a text file via the user’s selection. To further explain, the machine code being taken in is taken in as binary data in memory and the program is to convert the data into a set of instructions, addressing modes, and operands all within a set of addresses. The disassembler is written entirely in 68000 Assembly Code and provides a minute user interface to print out the disassembled code in a desired manner.
+
+Our program was designed in such a way to take in a long hex address to set a starting and ending address for the desired file to be read. The I/O Console then prompts the user with a set of numbers and depending on the user input, the console will either 1) display the disassembled code 15 lines at a time, 2) print the disassembled code all at once without pause, and 3) exit and end the program. 
